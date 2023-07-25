@@ -2,7 +2,7 @@ name: "starry-test-mod"
 displayName: "Starry test mod"
 "author": "Starry team"
 description: "this mod need to the testing a conten "
-version: "0.3.1"
+version: "0.0.1"
 minGameVersion: "145"
 dependencies: []
 hidden: false
