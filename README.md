@@ -1,2 +1,2 @@
 # Starry-test-mod
-This mod need to the testing content
+This mod needed to the testing content
