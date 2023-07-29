@@ -1,4 +1,4 @@
-type:StaticWall
+type: StaticWall
 variants: 2
 attributes: {
   sand: 1
