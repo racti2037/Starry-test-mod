@@ -27,7 +27,7 @@ ammoTypes: [
 			trailColor: 2CFF77
 			trailWidth: 1
 			trailLength: 3
-}
+
 		graphite: {
 			damage: 30
 			pierce: true
