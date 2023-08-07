@@ -15,7 +15,7 @@ shootCone: 2
 shootEffect: shootSmall
 inaccuracy: 2
 rotateSpeed: 5
-ammoTypes: [
+ammoTypes: {
 		copper: {
 			damage: 24
 			pierce: true
@@ -28,21 +28,10 @@ ammoTypes: [
 			trailColor: 2CFF77
 			trailWidth: 1
 			trailLength: 3
-}
-		graphite: {
-			damage: 30
-			pierce: true
-			speed: 15
-			ammoMultiplier: 2
-			reloadMultiplier: 0.95
-			lifetime: 8
-			width: 0
-			height: 0
-			trailColor: ACE4FC
-			trailWidth: 1
-			trailLength: 3
+
+		
   }
-]
+}
 drawer: {
 		type: DrawTurret
 		parts: [
