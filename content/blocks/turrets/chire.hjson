@@ -1,3 +1,68 @@
 name: Chire
 type: itemTurret
-category: turrets
+category: turret
+health: 180
+rotateSpeed: 2
+targetAir: true
+targetGround: true
+size: 1
+range: 110
+reload: 4
+shootCone: 2
+shootEffect: shootSmall
+inaccuracy: 2
+ammoTypes: {
+		copper: {
+			damage: 24
+			pierce: true
+			speed: 15
+			ammoMultiplier: 3
+			reloadMultiplier: 1
+			lifetime: 8
+			width: 0
+			height: 0
+			trailColor: 2CFF77
+			trailWidth: 1
+			trailLength: 3
+			
+		}
+		graphite: {
+			damage: 30
+			pierce: true
+			speed: 15
+			ammoMultiplier: 2
+			reloadMultiplier: 0.95
+			lifetime: 8
+			width: 0
+			height: 0
+			trailColor: ACE4FC
+			trailWidth: 1
+			trailLength: 3
+
+		}
+			
+}
+drawer: {
+		type: DrawTurret
+		parts: [
+			{
+				type: RegionPart
+				suffix: -side
+				mirror: true
+				progress: recoil
+				moveX: 2
+				moveY: -2
+				moveRot: -6
+				under: true
+				moves: [
+					{
+						type: PartMove
+						progress: recoil
+						moveRot: -25
+						moveX: 2
+						moveY: -2
+					}
+				]
+			}
+		]
+	}
