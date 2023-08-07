@@ -22,7 +22,7 @@ ammoTypes: {
 			speed: 6
 			ammoMultiplier: 3
 			reloadMultiplier: 1
-			lifetime: 8
+			lifetime: 16
 			width: 3
 			height: 4
 			trailColor: 2CFF77
@@ -40,8 +40,8 @@ drawer: {
 				suffix: -side
 				mirror: true
 				progress: recoil
-				moveX: 2
-				moveY: -2
+				moveX: 0
+				moveY: 0
 				moveRot: -6
 				under: true
 				moves: [
@@ -49,8 +49,8 @@ drawer: {
 						type: PartMove
 						progress: recoil
 						moveRot: -25
-						moveX: 2
-						moveY: -2
+						moveX: 0
+						moveY: 0
 					}
 				]
 			}
