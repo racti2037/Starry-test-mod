@@ -27,8 +27,7 @@ ammoTypes: [
 			trailColor: 2CFF77
 			trailWidth: 1
 			trailLength: 3
-			
-		}
+}
 		graphite: {
 			damage: 30
 			pierce: true
@@ -41,9 +40,7 @@ ammoTypes: [
 			trailColor: ACE4FC
 			trailWidth: 1
 			trailLength: 3
-
-		}
-			
+  }
 ]
 drawer: {
 		type: DrawTurret
