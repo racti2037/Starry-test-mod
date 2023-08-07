@@ -14,7 +14,7 @@ reload: 4
 shootCone: 2
 shootEffect: shootSmall
 inaccuracy: 2
-ammoTypes: {
+ammoTypes: [
 		copper: {
 			damage: 24
 			pierce: true
@@ -44,7 +44,7 @@ ammoTypes: {
 
 		}
 			
-}
+]
 drawer: {
 		type: DrawTurret
 		parts: [
