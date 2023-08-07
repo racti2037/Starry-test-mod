@@ -5,7 +5,6 @@ requirements: [
 		cobalt/35
 		lead/20
 		silicon/30
-rotateSpeed: 2
 targetAir: true
 targetGround: true
 size: 1
@@ -14,6 +13,7 @@ reload: 4
 shootCone: 2
 shootEffect: shootSmall
 inaccuracy: 2
+rotateSpeed: 5
 ammoTypes: [
 		copper: {
 			damage: 24
