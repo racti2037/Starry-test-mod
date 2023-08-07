@@ -40,7 +40,7 @@ ammoTypes: [
 			trailColor: ACE4FC
 			trailWidth: 1
 			trailLength: 3
-  }
+  
 ]
 drawer: {
 		type: DrawTurret
