@@ -1,6 +1,5 @@
 name: Chire
 type: itemTurret
-category: turret
 health: 180
 requirements: [
 		cobalt/35
@@ -70,3 +69,5 @@ drawer: {
 			}
 		]
 	}
+category: turret
+research: duo
