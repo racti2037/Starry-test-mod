@@ -5,6 +5,7 @@ requirements: [
 		cobalt/35
 		lead/20
 		silicon/30
+]
 targetAir: true
 targetGround: true
 size: 1
