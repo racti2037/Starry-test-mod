@@ -10,8 +10,8 @@ targetAir: true
 targetGround: true
 size: 1
 range: 110
-reload: 4
-shootCone: 2
+reload: 20
+shootCone: 7
 shootEffect: shootSmall
 inaccuracy: 2
 rotateSpeed: 5
@@ -19,12 +19,12 @@ ammoTypes: {
 		copper: {
 			damage: 24
 			pierce: true
-			speed: 15
+			speed: 6
 			ammoMultiplier: 3
 			reloadMultiplier: 1
 			lifetime: 8
-			width: 0
-			height: 0
+			width: 3
+			height: 4
 			trailColor: 2CFF77
 			trailWidth: 1
 			trailLength: 3
