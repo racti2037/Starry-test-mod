@@ -57,7 +57,7 @@ parts: [
 	   type: RegionPart
 	   suffix: -side
 	   mirror: true
-	   progress: life
+	   progress: reload
 	   moveX: 0
            moveY: -1
 	   moveRot: -10
