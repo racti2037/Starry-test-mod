@@ -14,7 +14,7 @@ range: 110
 reload: 20
 shootCone: 7
 shoot: {
-        shotDelay: 7
+        shotDelay: 15
         shots: 2
     }
 shootEffect: shootSmall
@@ -30,7 +30,7 @@ ammoTypes: {
 			lifetime: 17
 			width: 3
 			height: 4
-			trailColor: 2CFF77
+			trailColor: 4CFF66
 			trailWidth: 1
 			trailLength: 3
 
@@ -47,13 +47,13 @@ drawer: {
 				progress: recoil
 				moveX: 0
 				moveY: -2
-				moveRot: -60
+				moveRot: -25
 				under: true
 				moves: [
 					{
 						type: PartMove
 						progress: recoil
-						moveRot: -60
+						moveRot: -25
 						moveX: 0
 						moveY: -2
 					}
