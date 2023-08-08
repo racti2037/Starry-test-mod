@@ -13,7 +13,7 @@ range: 110
 reload: 20
 shootCone: 7
 shoot: {
-        shotDelay: 3
+        shotDelay: 7
         shots: 2
     }
 shootEffect: shootSmall
@@ -37,21 +37,28 @@ ammoTypes: {
   }
 }
 drawer: {
-type: DrawTurret
-basePrefix: chire-
-parts: [
-{
-type: RegionPart
-suffix: -side
-mirror: true
-under: true
-x: 0
-moveY: 2.8
-moveX: 1
-moveRot: 68
-progress: warmup
-}
-]
-}
+		type: DrawTurret
+		parts: [
+			{
+				type: RegionPart
+				suffix: -side
+				mirror: true
+				progress: recoil
+				moveX: 0
+				moveY: -2
+				moveRot: -60
+				under: true
+				moves: [
+					{
+						type: PartMove
+						progress: recoil
+						moveRot: -60
+						moveX: 0
+						moveY: -2
+					}
+				]
+			}
+		]
+	}
 category: turret
 research: duo
