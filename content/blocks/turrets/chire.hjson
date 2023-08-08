@@ -1,4 +1,4 @@
-name: Chire
+f/name: Chire
 type: itemTurret
 health: 370
 requirements: [
@@ -12,6 +12,10 @@ size: 1
 range: 110
 reload: 20
 shootCone: 7
+shoot: {
+        shotDelay: 3
+        shots: 2
+    }
 shootEffect: shootSmall
 inaccuracy: 1
 rotateSpeed: 5
