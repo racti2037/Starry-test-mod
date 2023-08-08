@@ -57,7 +57,7 @@ parts: [
 	   type: RegionPart
 	   suffix: -side
 	   mirror: true
-	   progress: recoil
+	   progress: life
 	   moveX: 0
            moveY: -1
 	   moveRot: -10
@@ -65,7 +65,7 @@ parts: [
            moves: [
 		{
 		  type: PartMove
-		  progress: recoil
+		  progress: life
 		  moveRot: -10
 		  moveX: 0
 		  moveY: -1
