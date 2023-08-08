@@ -11,7 +11,7 @@ targetAir: true
 targetGround: true
 size: 1
 range: 110
-reload: 20
+reload: 30
 shootCone: 7
 shoot: {
         shotDelay: 15
@@ -46,16 +46,16 @@ drawer: {
 				mirror: true
 				progress: recoil
 				moveX: 0
-				moveY: -2
-				moveRot: -25
+				moveY: -1
+				moveRot: -10
 				under: true
 				moves: [
 					{
 						type: PartMove
 						progress: recoil
-						moveRot: -25
+						moveRot: -10
 						moveX: 0
-						moveY: -2
+						moveY: -1
 					}
 				]
 			}
