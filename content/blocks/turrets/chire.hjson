@@ -33,28 +33,21 @@ ammoTypes: {
   }
 }
 drawer: {
-		type: DrawTurret
-		parts: [
-			{
-				type: RegionPart
-				suffix: -side
-				mirror: true
-				progress: warmup
-				moveX: 0
-				moveY: 1
-				moveRot: -6
-				under: true
-				moves: [
-					{
-						type: PartMove
-						progress: warmup
-						moveRot: -25
-						moveX: 0.5
-						moveY: 2
-					}
-				]
-			}
-		]
-	}
+type: DrawTurret
+basePrefix: chire-
+parts: [
+{
+type: RegionPart
+suffix: -side
+mirror: true
+under: true
+x: 0
+moveY: 2.8
+moveX: 1
+moveRot: 68
+progress: warmup
+}
+]
+}
 category: turret
 research: duo
