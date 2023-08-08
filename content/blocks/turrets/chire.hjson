@@ -1,6 +1,6 @@
 name: Chire
 type: itemTurret
-health: 180
+health: 370
 requirements: [
 		cobalt/35
 		lead/20
@@ -13,12 +13,12 @@ range: 110
 reload: 20
 shootCone: 7
 shootEffect: shootSmall
-inaccuracy: 2
+inaccuracy: 1
 rotateSpeed: 5
 ammoTypes: {
 		copper: {
 			damage: 24
-			pierce: true
+			pierce: false
 			speed: 6
 			ammoMultiplier: 3
 			reloadMultiplier: 1
@@ -39,7 +39,7 @@ drawer: {
 				type: RegionPart
 				suffix: -side
 				mirror: true
-				progress: recoil
+				progress: warmup
 				moveX: 0
 				moveY: 1
 				moveRot: -6
@@ -47,10 +47,10 @@ drawer: {
 				moves: [
 					{
 						type: PartMove
-						progress: recoil
+						progress: warmup
 						moveRot: -25
-						moveX: 0
-						moveY: 1
+						moveX: 0.5
+						moveY: 2
 					}
 				]
 			}
