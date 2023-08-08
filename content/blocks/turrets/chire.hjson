@@ -65,7 +65,7 @@ parts: [
            moves: [
 		{
 		  type: PartMove
-		  progress: life
+		  progress: reload
 		  moveRot: -10
 		  moveX: 0
 		  moveY: -1
