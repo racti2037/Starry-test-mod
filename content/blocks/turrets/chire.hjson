@@ -1,6 +1,7 @@
-f/name: Chire
+name: Chire
 type: itemTurret
 health: 370
+outlineColor: 2d2f39 
 requirements: [
 		cobalt/35
 		lead/20
