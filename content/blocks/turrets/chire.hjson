@@ -11,7 +11,7 @@ targetAir: true
 targetGround: true
 size: 1
 range: 110
-reload: 30
+reload: 58
 shootCone: 7
 shoot: {
         shotDelay: 15
@@ -21,45 +21,58 @@ shootEffect: shootSmall
 inaccuracy: 1
 rotateSpeed: 5
 ammoTypes: {
-		copper: {
-			damage: 24
-			pierce: false
-			speed: 6
-			ammoMultiplier: 3
-			reloadMultiplier: 1
-			lifetime: 17
-			width: 3
-			height: 4
-			trailColor: 4CFF66
-			trailWidth: 1
-			trailLength: 3
+	copper: {
+		damage: 24
+		pierce: false
+		speed: 6
+		ammoMultiplier: 3
+		reloadMultiplier: 1
+		lifetime: 17
+		width: 4
+		height: 5
+		trailColor: 4CFF66
+		trailWidth: 1
+		trailLength: 3
+}
 
-		
+	graphite: {
+		damage: 30
+		pierce: true
+		speed: 6
+		ammoMultiplier: 2
+		reloadMultiplier: 0.95
+		lifetime: 17
+		width: 5
+		height: 6
+		trailColor: ACE4FC
+		trailWidth: 1
+		trailLength: 3
+				
   }
 }
 drawer: {
-		type: DrawTurret
-		parts: [
-			{
-				type: RegionPart
-				suffix: -side
-				mirror: true
-				progress: recoil
-				moveX: 0
-				moveY: -1
-				moveRot: -10
-				under: true
-				moves: [
-					{
-						type: PartMove
-						progress: recoil
-						moveRot: -10
-						moveX: 0
-						moveY: -1
-					}
-				]
-			}
-		]
-	}
+type: DrawTurret
+parts: [
+	 {
+	   type: RegionPart
+	   suffix: -side
+	   mirror: true
+	   progress: recoil
+	   moveX: 0
+           moveY: -1
+	   moveRot: -10
+           under: true
+           moves: [
+		{
+		  type: PartMove
+		  progress: recoil
+		  moveRot: -10
+		  moveX: 0
+		  moveY: -1
+	        }
+	   ]
+       }
+   ]
+}
 category: turret
 research: duo
