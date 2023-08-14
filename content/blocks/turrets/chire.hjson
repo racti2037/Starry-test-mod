@@ -12,6 +12,7 @@ targetGround: true
 size: 2
 range: 130
 reload: 58
+shootY: 5
 shootCone: 7
 shoot: {
         shotDelay: 15
