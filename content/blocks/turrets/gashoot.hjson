@@ -11,4 +11,6 @@ shootSound: spray
 spread:10
 rotateSpeed: 8
 inaccuracy: 3.5
-ammoTypes: {}
+ammoTypes: {
+ ozone: {
+      
