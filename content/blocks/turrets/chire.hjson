@@ -1,6 +1,6 @@
 name: Chire
 type: itemTurret
-health: 640
+health: 740
 outlineColor: 2d2f39 
 requirements: [
 		cobalt/35
@@ -60,7 +60,7 @@ parts: [
 	   mirror: true
 	   progress: reload
 	   moveX: 0
-           moveY: -1
+           moveY: 1
 	   moveRot: -10
            under: true
            moves: [
@@ -69,7 +69,7 @@ parts: [
 		  progress: reload
 		  moveRot: -10
 		  moveX: 0
-		  moveY: -1
+		  moveY: 1
 	        }
 	   ]
        }
@@ -79,7 +79,7 @@ parts: [
 	   mirror: true
 	   progress: recoil
 	   moveX: 0
-           moveY: 1.8
+           moveY: -1.2
 	   moveRot: -10
            under: false
            moves: [
@@ -88,7 +88,7 @@ parts: [
 		  progress: recoil
 		  moveRot: -10
 		  moveX: 0
-		  moveY: 1.8
+		  moveY: -1.2
 	        }
 	   ] 
      }
