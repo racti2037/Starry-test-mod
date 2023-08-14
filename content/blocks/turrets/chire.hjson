@@ -78,16 +78,16 @@ parts: [
 	   mirror: true
 	   progress: recoil
 	   moveX: 0
-           moveY: 2
-	   moveRot: 10
-           under: true
+           moveY: 1.8
+	   moveRot: -10
+           under: false
            moves: [
 		{
 		  type: PartMove
 		  progress: recoil
-		  moveRot: 10
+		  moveRot: -10
 		  moveX: 0
-		  moveY: 2
+		  moveY: 1.8
 	        }
 	   ] 
      }
