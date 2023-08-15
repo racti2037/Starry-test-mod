@@ -56,7 +56,7 @@ parts: [
     moves: [
 		           {
 		         type: PartMove
-		         progress: warnup
+		         progress: warmup
 		         moveRot: -10
 		         moveX: 0
 		         moveY: 1.2
