@@ -12,7 +12,7 @@ requirements: [
 targetAir: true
 targetGround: true
 range: 150
-reload: 12
+reload: 20
 shootCone: 3
 shootSound: pew
 rotateSpeed: 8
@@ -20,6 +20,7 @@ inaccuracy: 3.5
 ammoTypes: {
  ozone: {
         type: FLakBulletType
+        hitSize: 4
         damage: 24
 	speed: 6
 	ammoMultiplier: 2
@@ -30,6 +31,8 @@ ammoTypes: {
 	trailColor: ff4dd2
 	trailWidth: 1
 	trailLength: 3
+        hitEffect: flakExplosion
+        shootEffect: shootBigColor
           fragBullets: 3
           fragRandomSpread: 180
           fragBullet: {
