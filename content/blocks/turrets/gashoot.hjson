@@ -14,7 +14,7 @@ targetGround: true
 range: 150
 reload: 60
 shootCone: 3
-shootSound: pew
+shootSound: blaster
 rotateSpeed: 8
 inaccuracy: 3.5
 ammoTypes: {
@@ -37,6 +37,7 @@ ammoTypes: {
           fragRandomSpread: 180
           fragBullet: {
                type: MissileBulletType
+               shootSound: mineDeploy
                sprite: mine-bullet
                speed: 2
                damage: 12
