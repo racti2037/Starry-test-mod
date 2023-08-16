@@ -54,16 +54,16 @@ parts: [
 	   suffix: -side
 	   mirror: true
 	   progress: warmup
-	   moveX: 3
+	   moveX: 1.2
            moveY: 2
-           moveRot: -15
-           under: true
+           moveRot: -18
+           under: false
            moves: [
 		           {
 		         type: PartMove
 		         progress: warmup
-		         moveRot: -15
-		         moveX: 3
+		         moveRot: -18
+		         moveX: 1.2
 		         moveY: 2
 	           }
 	        ]
