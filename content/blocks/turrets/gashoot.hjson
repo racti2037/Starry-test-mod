@@ -12,7 +12,7 @@ requirements: [
 targetAir: true
 targetGround: true
 range: 150
-reload: 20
+reload: 30
 shootCone: 3
 shootSound: pew
 rotateSpeed: 8
@@ -32,12 +32,13 @@ ammoTypes: {
 	trailWidth: 1
 	trailLength: 3
         hitEffect: flakExplosion
-        shootEffect: shootBigColor
+        shootEffect: shootBig
           fragBullets: 3
           fragRandomSpread: 180
           fragBullet: {
                type: MissileBulletType
                sprite: mine-bullet
+               speed: 2
                damage: 12
                lifeTime: 8
                trailColor: ff4dd2
