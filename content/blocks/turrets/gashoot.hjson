@@ -34,10 +34,11 @@ ammoTypes: {
           fragRandomSpread: 360
           fragBullet: {
                type: MissileBulletType
-               damage: 10
+               sprite: mine-bullet
+               damage: 12
                lifeTime: 8
                trailColor: ff4dd2
-               knockback: -2
+               knockback: 2
           }
         }
       }
