@@ -4,7 +4,7 @@ size: 2
 health: 780
 rotateSpeed: 4
 requirements: [
-		cobalt/68
+		cobalt/65
                 hematite/70
 		lead/160
 		silicon/120
@@ -12,9 +12,9 @@ requirements: [
 targetAir: true
 targetGround: true
 range: 150
+reload: 12
 shootCone: 3
-shootSound: spray
-spread:10
+shootSound: pew
 rotateSpeed: 8
 inaccuracy: 3.5
 ammoTypes: {
@@ -24,14 +24,14 @@ ammoTypes: {
 	speed: 6
 	ammoMultiplier: 2
 	reloadMultiplier: 1
-	lifetime: 20
+	lifetime: 22
 	width: 5
 	height: 6
 	trailColor: ff4dd2
 	trailWidth: 1
 	trailLength: 3
           fragBullets: 3
-          fragRandomSpread: 360
+          fragRandomSpread: 180
           fragBullet: {
                type: MissileBulletType
                sprite: mine-bullet
@@ -51,16 +51,16 @@ parts: [
 	   mirror: true
 	   progress: reload
 	   moveX: 0
-    moveY: 1.2
-	   moveRot: -10
-    under: true
-    moves: [
+           moveY: 2
+           moveRot: -15
+           under: true
+           moves: [
 		           {
 		         type: PartMove
 		         progress: warmup
-		         moveRot: -10
+		         moveRot: -15
 		         moveX: 0
-		         moveY: 1.2
+		         moveY: 2
 	           }
 	        ]
       }
