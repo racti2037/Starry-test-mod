@@ -12,7 +12,7 @@ requirements: [
 targetAir: true
 targetGround: true
 range: 150
-reload: 30
+reload: 60
 shootCone: 3
 shootSound: pew
 rotateSpeed: 8
@@ -21,8 +21,8 @@ ammoTypes: {
  ozone: {
         type: FLakBulletType
         hitSize: 4
-        damage: 24
-	speed: 6
+        damage: 34
+	speed: 4
 	ammoMultiplier: 2
 	reloadMultiplier: 1
 	lifetime: 22
@@ -32,7 +32,7 @@ ammoTypes: {
 	trailWidth: 1
 	trailLength: 3
         hitEffect: flakExplosion
-        shootEffect: shootBig
+        shootEffect: shootBigSmoke
           fragBullets: 3
           fragRandomSpread: 180
           fragBullet: {
@@ -53,8 +53,8 @@ parts: [
 	   type: RegionPart
 	   suffix: -side
 	   mirror: true
-	   progress: reload
-	   moveX: 0
+	   progress: warmup
+	   moveX: 3
            moveY: 2
            moveRot: -15
            under: true
@@ -63,7 +63,7 @@ parts: [
 		         type: PartMove
 		         progress: warmup
 		         moveRot: -15
-		         moveX: 0
+		         moveX: 3
 		         moveY: 2
 	           }
 	        ]
