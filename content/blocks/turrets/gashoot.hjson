@@ -37,7 +37,6 @@ ammoTypes: {
           fragRandomSpread: 180
           fragBullet: {
                type: MissileBulletType
-               shootSound: mineDeploy
                sprite: mine-bullet
                speed: 2
                damage: 12
@@ -55,7 +54,7 @@ parts: [
 	   suffix: -side
 	   mirror: true
 	   progress: warmup
-	   moveX: 0
+	   moveX: 1
            moveY: 2
            moveRot: -18
            under: false
@@ -64,7 +63,7 @@ parts: [
 		         type: PartMove
 		         progress: warmup
 		         moveRot: -18
-		         moveX: 0
+		         moveX: 1
 		         moveY: 2
 	           }
 	        ]
