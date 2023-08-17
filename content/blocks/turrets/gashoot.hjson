@@ -56,13 +56,13 @@ parts: [
 	   progress: warmup
 	   moveX: 1
            moveY: 2
-           moveRot: -18
-           under: false
+           moveRot: -50
+           under: true
            moves: [
 		           {
 		         type: PartMove
 		         progress: warmup
-		         moveRot: -18
+		         moveRot: -50
 		         moveX: 1
 		         moveY: 2
 	           }
