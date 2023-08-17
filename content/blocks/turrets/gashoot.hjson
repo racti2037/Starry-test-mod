@@ -25,7 +25,7 @@ ammoTypes: {
 	speed: 4
 	ammoMultiplier: 2
 	reloadMultiplier: 1
-	lifetime: 28
+	lifetime: 30
 	width: 5
 	height: 6
 	trailColor: ff4dd2
