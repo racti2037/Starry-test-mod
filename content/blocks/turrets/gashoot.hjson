@@ -43,10 +43,17 @@ ammoTypes: {
                lifeTime: 8
                trailColor: ff4dd2
                knockback: 2
-          }
+                     }
         }
       }
 drawer: {
+type: DrawLiquidTile
+parts: [
+        {
+         type: TextureRegion
+         suffix: -liquid
+        }
+       ]
 type: DrawTurret
 parts: [
 	 {
@@ -59,16 +66,16 @@ parts: [
            moveRot: -50
            under: true
            moves: [
-		           {
-		         type: PartMove
-		         progress: warmup
-		         moveRot: -50
-		         moveX: 3
-		         moveY: 0.7
-	           }
-	        ]
-      }
-   ]
-}
+		    {
+		 type: PartMove
+		 progress: warmup
+		 moveRot: -50
+		 moveX: 3
+		 moveY: 0.7
+	            }       
+	         ]
+         }
+       ]
+     }
 category: turret
 research: chire
