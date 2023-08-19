@@ -42,8 +42,8 @@ ammoTypes: {
                speed: 2
                damage: 20
                pierce: true
-               splashDamage: 18
-               splashDamageRadius: 10
+               splashDamage: 2
+               splashDamageRadius: 5
                lifeTime: 8
                trailColor: ff4dd2
                knockback: 2
