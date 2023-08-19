@@ -41,7 +41,7 @@ ammoTypes: {
                sprite: mine-bullet
                speed: 2
                damage: 20
-               pierce: true
+               pierce: false
                splashDamage: 2
                splashDamageRadius: 5
                lifeTime: 8
