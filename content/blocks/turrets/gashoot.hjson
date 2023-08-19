@@ -2,6 +2,7 @@ type: liquidTurret
 name: Gashoot
 size: 2
 health: 780
+outlineColor: 2d2f39 
 rotateSpeed: 4
 requirements: [
 		cobalt/65
@@ -22,10 +23,12 @@ ammoTypes: {
         type: FLakBulletType
         hitSize: 4
         damage: 34
+        splashDamage: 27
+        splashDamageRadius: 20
 	speed: 4
 	ammoMultiplier: 2
 	reloadMultiplier: 1
-	lifetime: 30
+	lifetime: 32
 	width: 5
 	height: 6
 	trailColor: ff4dd2
@@ -39,7 +42,10 @@ ammoTypes: {
                type: MissileBulletType
                sprite: mine-bullet
                speed: 2
-               damage: 12
+               damage: 20
+               pierce: true
+               splashDamage: 18
+               splashDamageRadius: 10
                lifeTime: 8
                trailColor: ff4dd2
                knockback: 2
@@ -47,15 +53,6 @@ ammoTypes: {
         }
       }
 drawer: {
-type: DrawLiquidTile
-parts: [
-        {
-         type: TextureRegion
-         suffix: -liquid
-         drawLiquid: ozone
-         
-        }
-       ]
 type: DrawTurret
 parts: [
 	 {
