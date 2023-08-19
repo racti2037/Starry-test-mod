@@ -23,8 +23,6 @@ ammoTypes: {
         type: FLakBulletType
         hitSize: 4
         damage: 34
-        splashDamage: 27
-        splashDamageRadius: 20
 	speed: 4
 	ammoMultiplier: 2
 	reloadMultiplier: 1
