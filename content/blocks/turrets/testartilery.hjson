@@ -10,7 +10,7 @@ requirements: [
 ]
 targetAir: false
 targetGround: true
-range: 240
+range: 200
 reload: 58
 shootEffect: shootBig
 shootSound: artillery
