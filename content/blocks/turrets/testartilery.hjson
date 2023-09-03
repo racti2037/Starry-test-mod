@@ -13,11 +13,12 @@ targetGround: true
 range: 240
 reload: 58
 shootEffect: shootBig
+shootSound: artillery
 inaccuracy: 2
 rotateSpeed: 2
 ammoTypes: {
 	  graphite: {
-	type: ArtileryBulletType
+	type: ArtilleryBulletType
   hitSize: 3 
   damage: 34
 	speed: 2
@@ -26,9 +27,9 @@ ammoTypes: {
 	lifetime: 80
 	width: 8
 	height: 10
-        backColor: d13b04
-        frontColor: e3470e
-	trailColor: bf020f
+        backColor: f5381b
+        frontColor: f5481f
+	trailColor: f5381f
 	trailWidth: 1
 	trailLength: 3
         hitEffect: flakExplosion
@@ -36,17 +37,17 @@ ammoTypes: {
           fragBullets: 6
           fragRandomSpread: 45
           fragBullet: {
-               type: ArtileryBulletType
+               type: ArtilleryBulletType
                sprite: mine-bullet
-               speed: 2
+               speed: 2.3
                damage: 20
                pierce: false
                splashDamage: 5
                splashDamageRadius: 5
                lifeTime: 8
-               frontColor:  d14411
-	       trailColor: d13b04
-               trailColor: bf020f
+               frontColor: f5461f 
+	       trailColor: f5561f
+               trailColor: f5461f
                      }
         }
       }
