@@ -1,0 +1,53 @@
+type: itemTurret
+name: testArtilery
+size: 3
+health: 1200
+outlineColor: 2d2f39 
+requirements: [
+		cobalt/350
+		iridium/200
+		silicon/130
+]
+targetAir: false
+targetGround: true
+range: 240
+reload: 58
+shootEffect: shootBig
+inaccuracy: 2
+rotateSpeed: 2
+ammoTypes: {
+	  graphite: {
+	type: ArtileryBulletType
+  hitSize: 
+  damage: 34
+	speed: 2
+	ammoMultiplier: 1
+	reloadMultiplier: 0.5
+	lifetime: 40
+	width: 8
+	height: 10
+	trailColor: d13b04
+	trailWidth: 1
+	trailLength: 3
+        hitEffect: flakExplosion
+        shootEffect: shootBigSmoke
+          fragBullets: 6
+          fragRandomSpread: 90
+          fragBullet: {
+               type: ArtileryBulletType
+               sprite: mine-bullet
+               speed: 2
+               damage: 20
+               pierce: false
+               splashDamage: 5
+               splashDamageRadius: 5
+               lifeTime: 8
+               trailColor: bf020f
+                     }
+        }
+      }
+				
+  }
+}
+category: turret
+research: gashoot
