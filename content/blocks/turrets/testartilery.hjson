@@ -23,16 +23,18 @@ ammoTypes: {
 	speed: 2
 	ammoMultiplier: 1
 	reloadMultiplier: 0.5
-	lifetime: 40
+	lifetime: 80
 	width: 8
 	height: 10
-	trailColor: d13b04
+        backColor: d13b04
+        frontColor: e3470e
+	trailColor: bf020f
 	trailWidth: 1
 	trailLength: 3
         hitEffect: flakExplosion
         shootEffect: shootBigSmoke
           fragBullets: 6
-          fragRandomSpread: 90
+          fragRandomSpread: 45
           fragBullet: {
                type: ArtileryBulletType
                sprite: mine-bullet
@@ -42,6 +44,8 @@ ammoTypes: {
                splashDamage: 5
                splashDamageRadius: 5
                lifeTime: 8
+               frontColor:  d14411
+	       trailColor: d13b04
                trailColor: bf020f
                      }
         }
