@@ -24,11 +24,10 @@ ammoTypes: {
 	speed: 2
 	ammoMultiplier: 1
 	reloadMultiplier: 0.5
-	lifetime: 80
+	lifetime: 50
 	width: 8
 	height: 10
         backColor: f5381b
-        frontColor: f5481f
 	trailColor: f5381f
 	trailWidth: 1
 	trailLength: 3
@@ -44,7 +43,7 @@ ammoTypes: {
                pierce: false
                splashDamage: 5
                splashDamageRadius: 5
-               lifeTime: 8
+               lifeTime: 16
                frontColor: f5461f 
 	       trailColor: f5561f
                trailColor: f5461f
