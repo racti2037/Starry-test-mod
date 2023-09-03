@@ -24,7 +24,7 @@ ammoTypes: {
 	speed: 2
 	ammoMultiplier: 1
 	reloadMultiplier: 0.5
-	lifetime: 50
+	lifetime: 30
 	width: 8
 	height: 10
         backColor: f5381b
@@ -36,12 +36,12 @@ ammoTypes: {
           fragBullets: 6
           fragRandomSpread: 45
           fragBullet: {
-               type: ArtilleryBulletType
+               type: BasicBulletType
                sprite: mine-bullet
                speed: 2.3
                damage: 20
                pierce: false
-               splashDamage: 5
+               splashDamage: 10
                splashDamageRadius: 5
                lifeTime: 16
                frontColor: f5461f 
