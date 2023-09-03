@@ -18,7 +18,7 @@ rotateSpeed: 2
 ammoTypes: {
 	  graphite: {
 	type: ArtileryBulletType
-  hitSize: 
+  hitSize: 3 
   damage: 34
 	speed: 2
 	ammoMultiplier: 1
