@@ -46,8 +46,6 @@ ammoTypes: {
                      }
         }
       }
-				
-  }
-}
+	
 category: turret
 research: gashoot
