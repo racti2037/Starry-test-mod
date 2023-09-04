@@ -18,7 +18,7 @@ shootSound: artillery
 inaccuracy: 2
 rotateSpeed: 2
 ammoTypes: {
-	  hematite: {
+	  cobalt: {
 	type: BasicBulletType
   hitSize: 3 
   damage: 34
@@ -28,8 +28,8 @@ ammoTypes: {
 	lifetime: 85
 	width: 8
 	height: 10
-        backColor: f5381b
-	trailColor: edbb3e
+        backColor: d6cf9f
+	trailColor: c7c2a1
 	trailWidth: 1
 	trailLength: 3
         hitEffect: flakExplosion
@@ -45,9 +45,9 @@ ammoTypes: {
                splashDamage: 30
                splashDamageRadius: 8
                lifeTime: 15
-               frontColor: f5461f 
-	       trailColor: ab5818
-               trailColor: f5461f
+               frontColor: 6596a3 
+	       trailColor: b8b18a
+               trailColor: c7c2a1
                      }
         }
           iridium: {
@@ -57,7 +57,7 @@ ammoTypes: {
 	speed: 3
 	ammoMultiplier: 1.5
 	reloadMultiplier: 0.75
-	lifetime: 65
+	lifetime: 45
 	width: 11
 	height: 13
         backColor: 6596a3
@@ -71,7 +71,7 @@ ammoTypes: {
           fragBullet: {
                type: ArtilleryBulletType
                sprite: mine-bullet
-               speed: 3
+               speed: 2.5
                damage: 30
                pierce: false
                splashDamage: 15
