@@ -8,8 +8,6 @@ requirements: [
 		iridium/200
 		silicon/130
 ]
-targetAir: false
-targetGround: true
 range: 270
 reload: 58
 shootEffect: shootBig
@@ -22,6 +20,8 @@ ammoTypes: {
   hitSize: 3 
   damage: 34
 	speed: 2
+        targetAir: false
+        targetGround: true
 	ammoMultiplier: 1
 	reloadMultiplier: 1
 	lifetime: 85
