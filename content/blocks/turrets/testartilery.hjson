@@ -4,7 +4,8 @@ size: 3
 health: 1200
 outlineColor: 2d2f39 
 requirements: [
-		cobalt/350
+		hematite/400
+                cobalt/350
 		iridium/200
 		silicon/130
 ]
@@ -36,7 +37,7 @@ ammoTypes: {
           fragBullets: 12
           fragRandomSpread: 30
           fragBullet: {
-               type: ArtilleryBulletType
+               type: BasicBulletType
                sprite: mine-bullet
                speed: 2
                damage: 30
