@@ -57,7 +57,7 @@ ammoTypes: {
 	speed: 3
 	ammoMultiplier: 1.5
 	reloadMultiplier: 0.75
-	lifetime: 75
+	lifetime: 65
 	width: 11
 	height: 13
         backColor: 6596a3
