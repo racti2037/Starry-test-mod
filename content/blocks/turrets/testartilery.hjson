@@ -11,33 +11,33 @@ requirements: [
 ]
 range: 270
 reload: 58
+targetAir: false
+targetGround: true
 shootEffect: shootBig
 shootSound: artillery
 inaccuracy: 2
 rotateSpeed: 2
 ammoTypes: {
-	  graphite: {
+	  hematite: {
 	type: BasicBulletType
   hitSize: 3 
   damage: 34
 	speed: 2
-        targetAir: false
-        targetGround: true
 	ammoMultiplier: 1
 	reloadMultiplier: 1
 	lifetime: 85
 	width: 8
 	height: 10
         backColor: f5381b
-	trailColor: f5381f
+	trailColor: edbb3e
 	trailWidth: 1
 	trailLength: 3
         hitEffect: flakExplosion
         shootEffect: shootBigSmoke
-          fragBullets: 20
+          fragBullets: 8
           fragRandomSpread: 30
           fragBullet: {
-               type: BasicBulletType
+               type: ArtilleryBulletType
                sprite: mine-bullet
                speed: 2
                damage: 30
@@ -46,8 +46,40 @@ ammoTypes: {
                splashDamageRadius: 8
                lifeTime: 15
                frontColor: f5461f 
-	       trailColor: f5561f
+	       trailColor: ab5818
                trailColor: f5461f
+                     }
+        }
+          iridium: {
+	type: BasicBulletType
+  hitSize: 3 
+  damage: 34
+	speed: 3
+	ammoMultiplier: 1.5
+	reloadMultiplier: 0.75
+	lifetime: 75
+	width: 11
+	height: 13
+        backColor: 6596a3
+	trailColor: 7198a3
+	trailWidth: 1
+	trailLength: 3
+        hitEffect: flakExplosion
+        shootEffect: shootBigSmoke
+          fragBullets: 30
+          fragRandomSpread: 30
+          fragBullet: {
+               type: ArtilleryBulletType
+               sprite: mine-bullet
+               speed: 3
+               damage: 30
+               pierce: false
+               splashDamage: 15
+               splashDamageRadius: 6
+               lifeTime: 15
+               frontColor: 7198a3
+	       trailColor: 9fb6bd
+               trailColor: 6596a3
                      }
         }
       }
