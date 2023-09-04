@@ -39,9 +39,9 @@ ammoTypes: {
                type: ArtilleryBulletType
                sprite: mine-bullet
                speed: 2
-               damage: 20
+               damage: 30
                pierce: false
-               splashDamage: 20
+               splashDamage: 30
                splashDamageRadius: 8
                lifeTime: 15
                frontColor: f5461f 
