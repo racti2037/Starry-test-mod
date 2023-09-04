@@ -43,7 +43,7 @@ ammoTypes: {
                damage: 30
                pierce: false
                splashDamage: 30
-               splashDamageRadius: 8
+               splashDamageRadius: 20
                lifeTime: 15
                frontColor: 6596a3 
 	       trailColor: b8b18a
@@ -53,7 +53,7 @@ ammoTypes: {
           iridium: {
 	type: BasicBulletType
   hitSize: 3 
-  damage: 34
+  damage: 26
 	speed: 3
 	ammoMultiplier: 1.5
 	reloadMultiplier: 0.75
@@ -75,7 +75,7 @@ ammoTypes: {
                damage: 30
                pierce: false
                splashDamage: 15
-               splashDamageRadius: 6
+               splashDamageRadius: 13
                lifeTime: 15
                frontColor: 7198a3
 	       trailColor: 9fb6bd
