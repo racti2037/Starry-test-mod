@@ -113,7 +113,7 @@ ammoTypes: {
 	       trailColor: ce36d9
                trailColor: e662f0
                      }
-        
+        }
       }
 	
 category: turret
