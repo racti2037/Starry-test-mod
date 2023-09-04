@@ -57,7 +57,7 @@ ammoTypes: {
 	speed: 2
 	ammoMultiplier: 1.5
 	reloadMultiplier: 0.75
-	lifetime: 85
+	lifetime: 80
 	width: 11
 	height: 13
         backColor: 6596a3
@@ -67,7 +67,7 @@ ammoTypes: {
         hitEffect: flakExplosion
         shootEffect: shootBigSmoke
           fragBullets: 30
-          fragRandomSpread: 30
+          fragRandomSpread: 90
           fragBullet: {
                type: ArtilleryBulletType
                sprite: mine-bullet
