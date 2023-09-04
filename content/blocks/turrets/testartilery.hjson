@@ -90,8 +90,8 @@ ammoTypes: {
 	ammoMultiplier: 4
 	reloadMultiplier: 0.20
 	lifetime: 80
-	width: 10
-	height: 12
+	width: 12
+	height: 14
         backColor: ce36d9
 	trailColor: e662f0
 	trailWidth: 1
@@ -103,6 +103,8 @@ ammoTypes: {
           fragBullet: {
                type: ArtilleryBulletType
                sprite: mine-bullet
+               width: 8
+	       height: 10
                speed: 2
                damage: 50
                pierce: false
