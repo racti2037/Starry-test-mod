@@ -2,7 +2,6 @@ type: itemTurret
 name: testArtilery
 size: 3
 health: 1200
-itemCapacity: 20
 outlineColor: 2d2f39 
 requirements: [
 		cobalt/350
@@ -11,7 +10,7 @@ requirements: [
 ]
 targetAir: false
 targetGround: true
-range: 200
+range: 270
 reload: 58
 shootEffect: shootBig
 shootSound: artillery
@@ -25,7 +24,7 @@ ammoTypes: {
 	speed: 2
 	ammoMultiplier: 0.25
 	reloadMultiplier: 1
-	lifetime: 45
+	lifetime: 60
 	width: 8
 	height: 10
         backColor: f5381b
