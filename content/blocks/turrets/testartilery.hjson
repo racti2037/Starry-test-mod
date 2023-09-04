@@ -82,6 +82,38 @@ ammoTypes: {
                trailColor: 6596a3
                      }
         }
+          thorium: {
+	type: BasicBulletType
+  hitSize: 3 
+  damage: 50
+	speed: 2
+	ammoMultiplier: 4
+	reloadMultiplier: 0.20
+	lifetime: 80
+	width: 10
+	height: 12
+        backColor: ce36d9
+	trailColor: e662f0
+	trailWidth: 1
+	trailLength: 3
+        hitEffect: flakExplosion
+        shootEffect: shootBigSmoke
+          fragBullets: 4
+          fragRandomSpread: 10
+          fragBullet: {
+               type: ArtilleryBulletType
+               sprite: mine-bullet
+               speed: 2
+               damage: 50
+               pierce: false
+               splashDamage: 50
+               splashDamageRadius: 30
+               lifeTime: 20
+               frontColor: dc50e6 
+	       trailColor: ce36d9
+               trailColor: e662f0
+                     }
+        
       }
 	
 category: turret
