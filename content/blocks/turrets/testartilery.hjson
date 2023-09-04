@@ -34,7 +34,7 @@ ammoTypes: {
 	trailLength: 3
         hitEffect: flakExplosion
         shootEffect: shootBigSmoke
-          fragBullets: 12
+          fragBullets: 20
           fragRandomSpread: 30
           fragBullet: {
                type: BasicBulletType
