@@ -25,7 +25,7 @@ ammoTypes: {
 	speed: 2
 	ammoMultiplier: 1
 	reloadMultiplier: 1
-	lifetime: 85
+	lifetime: 78
 	width: 10
 	height: 12
         backColor: d6cf9f
@@ -44,7 +44,7 @@ ammoTypes: {
                pierce: false
                splashDamage: 30
                splashDamageRadius: 18
-               lifeTime: 40
+               lifeTime: 22
                frontColor: 6596a3 
 	       trailColor: b8b18a
                trailColor: c7c2a1
@@ -57,7 +57,7 @@ ammoTypes: {
 	speed: 2
 	ammoMultiplier: 1.5
 	reloadMultiplier: 0.75
-	lifetime: 80
+	lifetime: 78
 	width: 11
 	height: 13
         backColor: 6596a3
@@ -67,7 +67,7 @@ ammoTypes: {
         hitEffect: flakExplosion
         shootEffect: shootBigSmoke
           fragBullets: 30
-          fragRandomSpread: 90
+          fragRandomSpread: 70
           fragBullet: {
                type: ArtilleryBulletType
                sprite: mine-bullet
@@ -76,7 +76,7 @@ ammoTypes: {
                pierce: false
                splashDamage: 15
                splashDamageRadius: 13
-               lifeTime: 25
+               lifeTime: 22
                frontColor: 7198a3
 	       trailColor: 9fb6bd
                trailColor: 6596a3
@@ -88,8 +88,8 @@ ammoTypes: {
   damage: 50
 	speed: 2
 	ammoMultiplier: 4
-	reloadMultiplier: 0.20
-	lifetime: 80
+	reloadMultiplier: 0.80
+	lifetime: 78
 	width: 12
 	height: 14
         backColor: ce36d9
@@ -99,7 +99,7 @@ ammoTypes: {
         hitEffect: flakExplosion
         shootEffect: shootBigSmoke
           fragBullets: 4
-          fragRandomSpread: 80
+          fragRandomSpread: 65
           fragBullet: {
                type: ArtilleryBulletType
                sprite: mine-bullet
@@ -110,7 +110,7 @@ ammoTypes: {
                pierce: false
                splashDamage: 50
                splashDamageRadius: 35
-               lifeTime: 25
+               lifeTime: 22
                frontColor: dc50e6 
 	       trailColor: ce36d9
                trailColor: e662f0
