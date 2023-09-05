@@ -9,8 +9,8 @@ requirements: [
 		iridium/120
 		silicon/90
 ]
-range: 160
-reload: 18
+range: 180
+reload: 12
 targetAir: true
 targetGround: false
 shootEffect: shootBig
@@ -25,7 +25,7 @@ ammoTypes: {
 	speed: 3
 	ammoMultiplier: 1
 	reloadMultiplier: 1
-	lifetime: 48
+	lifetime: 58
 	width: 8
 	height: 10
         backColor: d6cf9f
@@ -44,7 +44,7 @@ ammoTypes: {
                pierce: false
                splashDamage: 30
                splashDamageRadius: 18
-               lifeTime: 140
+               lifeTime: 300
                frontColor: 6596a3 
 	             trailColor: b8b18a
                trailColor: c7c2a1
