@@ -39,7 +39,7 @@ ammoTypes: {
           fragBullet: {
                type: BasicBulletType
                sprite: mine-bullet
-               speed: 0.1
+               speed: 0.5
                damage: 30
                pierce: false
                splashDamage: 30
