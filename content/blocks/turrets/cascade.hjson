@@ -1,5 +1,5 @@
 type: itemTurret
-name: testArtilery
+name: Cascade
 size: 3
 health: 1200
 outlineColor: 2d2f39 
