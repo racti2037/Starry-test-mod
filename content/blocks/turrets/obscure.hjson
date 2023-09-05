@@ -21,11 +21,11 @@ ammoTypes: {
 	  cobalt: {
 	type: BasicBulletType
   hitSize: 3 
-  damage: 34
+  damage: 17
 	speed: 3
 	ammoMultiplier: 1
 	reloadMultiplier: 1
-	lifetime: 58
+	lifetime: 46
 	width: 8
 	height: 10
         backColor: d6cf9f
@@ -39,7 +39,7 @@ ammoTypes: {
           fragBullet: {
                type: BasicBulletType
                sprite: mine-bullet
-               speed: 0.5
+               speed: 1
                damage: 30
                pierce: false
                splashDamage: 30
