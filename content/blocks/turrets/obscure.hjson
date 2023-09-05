@@ -5,7 +5,7 @@ health: 1200
 outlineColor: 2d2f39 
 requirements: [
 		hematite/250
-    cobalt/150
+                cobalt/150
 		iridium/120
 		silicon/90
 ]
@@ -18,14 +18,14 @@ shootSound: shoot
 inaccuracy: 5
 rotateSpeed: 3
 ammoTypes: {
-	  hematite: {
+	  cobalt: {
 	type: BasicBulletType
   hitSize: 3 
   damage: 34
 	speed: 3
 	ammoMultiplier: 1
 	reloadMultiplier: 1
-	lifetime: 30
+	lifetime: 50
 	width: 8
 	height: 10
         backColor: d6cf9f
@@ -39,15 +39,17 @@ ammoTypes: {
           fragBullet: {
                type: BasicBulletType
                sprite: mine-bullet
-               speed: 0.2
+               speed: 0.1
                damage: 30
                pierce: false
                splashDamage: 30
                splashDamageRadius: 18
-               lifeTime: 40
+               lifeTime: 140
                frontColor: 6596a3 
 	             trailColor: b8b18a
                trailColor: c7c2a1
                      }
         }
 }
+category: turret
+research: gashoot
