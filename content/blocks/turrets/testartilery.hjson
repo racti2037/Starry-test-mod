@@ -35,7 +35,7 @@ ammoTypes: {
         hitEffect: flakExplosion
         shootEffect: shootBigSmoke
           fragBullets: 8
-          fragRandomSpread: 30
+          fragRandomSpread: 50
           fragBullet: {
                type: ArtilleryBulletType
                sprite: mine-bullet
@@ -67,7 +67,7 @@ ammoTypes: {
         hitEffect: flakExplosion
         shootEffect: shootBigSmoke
           fragBullets: 30
-          fragRandomSpread: 50
+          fragRandomSpread: 90
           fragBullet: {
                type: ArtilleryBulletType
                sprite: mine-bullet
@@ -99,7 +99,7 @@ ammoTypes: {
         hitEffect: flakExplosion
         shootEffect: shootBigSmoke
           fragBullets: 4
-          fragRandomSpread: 10
+          fragRandfragBullet: 80
           fragBullet: {
                type: ArtilleryBulletType
                sprite: mine-bullet
