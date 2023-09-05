@@ -35,16 +35,16 @@ ammoTypes: {
         hitEffect: flakExplosion
         shootEffect: shootBigSmoke
           fragBullets: 6
-          fragRandomSpread: 180
+          fragRandomSpread: 130
           fragBullet: {
                type: BasicBulletType
                sprite: mine-bullet
                speed: 1
                damage: 30
                pierce: false
-               splashDamage: 30
+               splashDamage: 25
                splashDamageRadius: 18
-               lifeTime: 300
+               lifeTime: 30
                frontColor: 6596a3 
 	             trailColor: b8b18a
                trailColor: c7c2a1
