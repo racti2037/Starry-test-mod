@@ -1,7 +1,7 @@
 type: itemTurret
-name: Cascade
+name: Obscure
 size: 2
-health: 1200
+health: 950
 outlineColor: 2d2f39 
 requirements: [
 		hematite/250
@@ -39,12 +39,12 @@ ammoTypes: {
           fragBullet: {
                type: BasicBulletType
                sprite: mine-bullet
-               speed: 1
+               speed: 0.5
                damage: 30
                pierce: false
                splashDamage: 25
                splashDamageRadius: 18
-               lifeTime: 30
+               lifeTime: 100
                frontColor: 6596a3 
 	       backColor: b8b18a
                trailColor: c7c2a1
@@ -71,12 +71,12 @@ ammoTypes: {
           fragBullet: {
                type: BasicBulletType
                sprite: mine-bullet
-               speed: 1
+               speed: 0.5
                damage: 30
                pierce: false
                splashDamage: 14
                splashDamageRadius: 20
-               lifeTime: 30
+               lifeTime: 100
                frontColor: eb5a36
 	       backColor: bf4e32
                trailColor: cc5233
