@@ -3,8 +3,8 @@ type: itemTurret
 health: 740
 outlineColor: 2d2f39 
 requirements: [
-		cobalt/35
-		lead/20
+		hematite/65
+		cobalt/30
 		silicon/30
 ]
 targetAir: true
@@ -22,7 +22,7 @@ shootEffect: shootSmall
 inaccuracy: 1
 rotateSpeed: 5
 ammoTypes: {
-	copper: {
+	hematite: {
 		damage: 24
 		pierce: false
 		speed: 6
@@ -31,12 +31,14 @@ ammoTypes: {
 		lifetime: 20
 		width: 5
 		height: 6
-		trailColor: 4CFF66
+		frontColor:  eb5a36
+	        backColor: bf4e32
+                trailColor: cc5233
 		trailWidth: 1
 		trailLength: 3
 }
 
-	graphite: {
+	iridium: {
 		damage: 30
 		pierce: true
 		speed: 6
@@ -45,7 +47,9 @@ ammoTypes: {
 		lifetime: 20
 		width: 6
 		height: 7
-		trailColor: ACE4FC
+		frontColor: 6596a3 
+	        backColor: b8b18a
+                trailColor: c7c2a1
 		trailWidth: 1
 		trailLength: 3
 				
