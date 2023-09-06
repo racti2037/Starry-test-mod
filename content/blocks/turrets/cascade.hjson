@@ -46,7 +46,7 @@ ammoTypes: {
                splashDamageRadius: 18
                lifeTime: 22
                frontColor: 6596a3 
-	       trailColor: b8b18a
+	       backColor: b8b18a
                trailColor: c7c2a1
                      }
         }
@@ -78,7 +78,7 @@ ammoTypes: {
                splashDamageRadius: 13
                lifeTime: 22
                frontColor: 7198a3
-	       trailColor: 9fb6bd
+	       backColor: 9fb6bd
                trailColor: 6596a3
                      }
         }
@@ -112,7 +112,7 @@ ammoTypes: {
                splashDamageRadius: 35
                lifeTime: 22
                frontColor: dc50e6 
-	       trailColor: ce36d9
+	       backColor: ce36d9
                trailColor: e662f0
                      }
         }
