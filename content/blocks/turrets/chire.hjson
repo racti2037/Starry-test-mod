@@ -23,6 +23,7 @@ shoot: {
           barrels: 2
           shots: 2
           spread: 10
+        }
     }
 shootEffect: shootSmall
 inaccuracy: 1
