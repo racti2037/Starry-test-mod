@@ -22,7 +22,7 @@ shoot: {
           type: ShootAlternate
           barrels: 2
           shots: 2
-          spread: 10
+          spread: 1
         }
     }
 shootEffect: shootSmall
