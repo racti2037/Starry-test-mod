@@ -12,11 +12,17 @@ targetGround: true
 size: 2
 range: 130
 reload: 58
+
 shootY: 5
+shootX: 2
 shootCone: 7
 shoot: {
-        shotDelay: 15
-        shots: 2
+        type: ShootMulti
+        source: {
+          type: ShootAlternate
+          barrels: 2
+          shots: 2
+          spread: 10
     }
 shootEffect: shootSmall
 inaccuracy: 1
