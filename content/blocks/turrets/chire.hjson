@@ -15,13 +15,12 @@ reload: 58
 
 shootY: 5
 shootX: 2
-shootCone: 7
 alternate: true 
 shootShake: 0.1
 shoot: {
-    type": ShootAlternate
+    type: ShootAlternate
     barrels: 2
-    spread": 3
+    spread": 34
     shots": 2
 }
 shootEffect: shootSmall
