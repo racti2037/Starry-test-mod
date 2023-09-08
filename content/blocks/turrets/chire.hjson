@@ -16,15 +16,14 @@ reload: 58
 shootY: 5
 shootX: 2
 shootCone: 7
+alternate: false
+shootShake: 0.1
 shoot: {
-        type: ShootMulti
-        source: {
-          type: ShootAlternate
-          barrels: 2
-          shots: 2
-          spread: 1
-        }
-    }
+    type": ShootAlternate
+    barrels: 2
+    spread": 3
+    shots": 2
+}
 shootEffect: shootSmall
 inaccuracy: 1
 rotateSpeed: 5
