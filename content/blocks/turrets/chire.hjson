@@ -16,7 +16,7 @@ reload: 58
 shootY: 5
 shootX: 2
 shootCone: 7
-alternate: false
+alternate: true 
 shootShake: 0.1
 shoot: {
     type": ShootAlternate
