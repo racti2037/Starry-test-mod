@@ -18,7 +18,7 @@ shootX: 0
 alternate: true 
 shootShake: 0.1
 shoot: {
-    type: ShootMulti 
+    type: ShootBarrel
     barrels: 2
     spread": 34
     shots": 2
