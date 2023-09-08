@@ -14,7 +14,7 @@ range: 130
 reload: 58
 
 shootY: 5
-shootX: 2
+shootX: 0
 alternate: true 
 shootShake: 0.1
 shoot: {
