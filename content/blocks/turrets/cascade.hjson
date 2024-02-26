@@ -19,7 +19,7 @@ inaccuracy: 2
 rotateSpeed: 2
 ammoTypes: {
 	  cobalt: {
-	type: BasicBulletType
+	type: ArtilleryBulletType
   hitSize: 3 
   damage: 34
 	speed: 2
@@ -51,7 +51,7 @@ ammoTypes: {
                      }
         }
           iridium: {
-	type: BasicBulletType
+	type: ArtilleryBulletType
   hitSize: 3 
   damage: 26
 	speed: 2
@@ -69,7 +69,7 @@ ammoTypes: {
           fragBullets: 30
           fragRandomSpread: 70
           fragBullet: {
-               type: ArtilleryBulletType
+               type: BasicBulletType
                sprite: mine-bullet
                speed: 2
                damage: 30
@@ -83,7 +83,7 @@ ammoTypes: {
                      }
         }
           thorium: {
-	type: BasicBulletType
+	type: ArtilleryBulletType
   hitSize: 3 
   damage: 50
 	speed: 2
@@ -101,7 +101,7 @@ ammoTypes: {
           fragBullets: 4
           fragRandomSpread: 65
           fragBullet: {
-               type: ArtilleryBulletType
+               type: BasicBulletType
                sprite: mine-bullet
                width: 8
 	       height: 10
