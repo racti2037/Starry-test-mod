@@ -3,6 +3,6 @@ displayName: "Starry test mod"
 "author": "Starry team"
 description: "this mod needed to the testing a conten "
 version: "0.0.1"
-minGameVersion: "145"
+minGameVersion: "146"
 dependencies: []
 hidden: false
