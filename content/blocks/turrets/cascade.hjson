@@ -25,7 +25,7 @@ ammoTypes: {
 	speed: 2
 	ammoMultiplier: 1
 	reloadMultiplier: 1
-	lifetime: 78
+	lifetime: 88
 	width: 10
 	height: 12
         backColor: d6cf9f
@@ -57,7 +57,7 @@ ammoTypes: {
 	speed: 2
 	ammoMultiplier: 1.5
 	reloadMultiplier: 0.75
-	lifetime: 78
+	lifetime: 88
 	width: 11
 	height: 13
         backColor: 6596a3
@@ -74,8 +74,8 @@ ammoTypes: {
                speed: 2
                damage: 30
                pierce: false
-               splashDamage: 15
-               splashDamageRadius: 13
+               splashDamage: 30
+               splashDamageRadius: 16
                lifeTime: 22
                frontColor: 7198a3
 	       backColor: 9fb6bd
