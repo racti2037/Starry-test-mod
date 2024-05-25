@@ -18,6 +18,10 @@ shootEffect: bolt
 shootSound: bolt
 inaccuracy: 5
 rotateSpeed: 3
+"shoot": {
+        "shots": 3,
+        "shotDelay": 
+}
 ammoTypes: {
 	  cobalt: {
 	type: BoltBulletType
