@@ -14,7 +14,7 @@ range: 180
 reload: 12
 targetAir: true
 targetGround: false
-shootEffect: bolt
+shootEffect: shootBigSmoke 
 shootSound: bolt
 inaccuracy: 5
 rotateSpeed: 3
