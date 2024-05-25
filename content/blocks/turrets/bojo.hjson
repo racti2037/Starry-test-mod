@@ -42,3 +42,4 @@ ammoTypes: {
         shootEffect: shootBigSmoke
                      }
         }
+category: turrets
