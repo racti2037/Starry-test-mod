@@ -1,0 +1,40 @@
+name: Bojo
+health: 945
+type: itemTurret 
+size: 2
+health: 950
+outlineColor: 2d2f39 
+requirements: [
+		hematite/320
+    cobalt/154
+		iridium/170
+		silicon/100
+]
+range: 180
+reload: 12
+targetAir: true
+targetGround: false
+shootEffect: bolt
+shootSound: bolt
+inaccuracy: 5
+rotateSpeed: 3
+ammoTypes: {
+	  cobalt: {
+	type: BoltBulletType
+        hitSize: 3 
+        damage: 30
+	speed: 3
+  bulletSprite: bolt
+	ammoMultiplier: 2
+	reloadMultiplier: 3
+	lifetime: 50
+	width: 7
+	height: 10
+        backColor: d6cf9f
+	trailColor: c7c2a1
+	trailWidth: 1
+	trailLength: 3
+        hitEffect: flakExplosion
+        shootEffect: shootBigSmoke
+                     }
+        }
