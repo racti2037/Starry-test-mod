@@ -39,12 +39,12 @@ ammoTypes: {
           fragBullet: {
                type: BasicBulletType
                sprite: mine-bullet
-               speed: 0.5
+               speed: 0
                damage: 30
                pierce: false
                splashDamage: 25
                splashDamageRadius: 18
-               lifeiime: 12
+               lifeiime: 10000
                frontColor: 6596a3 
 	       backColor: b8b18a
                trailColor: c7c2a1
@@ -71,12 +71,12 @@ ammoTypes: {
           fragBullet: {
                type: BasicBulletType
                sprite: mine-bullet
-               speed: 0.5
+               speed: 0
                damage: 30
                pierce: false
                splashDamage: 14
                splashDamageRadius: 20
-               lifetime: 15
+               lifetime: 10000
                frontColor: eb5a36
 	       backColor: bf4e32
                trailColor: cc5233
