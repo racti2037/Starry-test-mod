@@ -44,7 +44,7 @@ ammoTypes: {
                pierce: false
                splashDamage: 25
                splashDamageRadius: 18
-               lifeTime: 1000000
+               lifeiime: 12
                frontColor: 6596a3 
 	       backColor: b8b18a
                trailColor: c7c2a1
@@ -76,7 +76,7 @@ ammoTypes: {
                pierce: false
                splashDamage: 14
                splashDamageRadius: 20
-               lifeTime: 1000000
+               lifetime: 15
                frontColor: eb5a36
 	       backColor: bf4e32
                trailColor: cc5233
