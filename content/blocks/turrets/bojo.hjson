@@ -11,12 +11,12 @@ requirements: [
 		silicon/100
 ]
 range: 180
-reload: 12
+reload: 25
 targetAir: true
 targetGround: false
 shootEffect: shootBigSmoke 
 shootSound: bolt
-inaccuracy: 5
+inaccuracy: 0
 rotateSpeed: 3
 "shoot": {
         "shots": 4,
