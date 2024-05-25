@@ -11,11 +11,11 @@ requirements: [
 		silicon/100
 ]
 range: 180
-reload: 25
+reload: 30
 targetAir: true
 targetGround: false
 shootEffect: shootBigSmoke 
-shootSound: bolt
+shootSound: lasershoot
 inaccuracy: 0
 rotateSpeed: 3
 "shoot": {
@@ -25,17 +25,16 @@ rotateSpeed: 3
 ammoTypes: {
 	  cobalt: {
 	type: BoltBulletType
+        bulletSprite: casing
         hitSize: 3 
         damage: 30
 	speed: 3
-  bulletSprite: bolt
 	ammoMultiplier: 2
 	reloadMultiplier: 3
 	lifetime: 50
 	width: 7
 	height: 10
         backColor: d6cf9f
-	trailColor: c7c2a1
 	trailWidth: 1
 	trailLength: 3
         hitEffect: flakExplosion
