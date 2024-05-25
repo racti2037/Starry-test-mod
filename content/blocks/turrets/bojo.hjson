@@ -19,8 +19,8 @@ shootSound: bolt
 inaccuracy: 5
 rotateSpeed: 3
 "shoot": {
-        "shots": 3,
-        "shotDelay": 
+        "shots": 4,
+        "shotDelay": 1
 }
 ammoTypes: {
 	  cobalt: {
