@@ -9,7 +9,7 @@ requirements: [
 		iridium/120
 		silicon/90
 ]
-range: 180
+range: 230
 reload: 12
 targetAir: true
 targetGround: false
