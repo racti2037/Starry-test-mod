@@ -39,11 +39,10 @@ ammoTypes: {
           fragBullet: {
                type: BasicBulletType
                sprite: mine-bullet
-               speed: 0.001
-               damage: 30
+               speed: 0.01
                pierce: false
-               splashDamage: 25
-               splashDamageRadius: 18
+               splashDamage: 30
+               splashDamageRadius: 25
                lifetime: 650
                frontColor: 6596a3 
 	       backColor: b8b18a
@@ -71,8 +70,7 @@ ammoTypes: {
           fragBullet: {
                type: BasicBulletType
                sprite: mine-bullet
-               speed: 0.0015
-               damage: 19
+               speed: 0.015
                pierce: false
                splashDamage: 14
                splashDamageRadius: 20
