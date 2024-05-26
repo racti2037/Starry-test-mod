@@ -25,7 +25,7 @@ ammoTypes: {
 	speed: 2
 	ammoMultiplier: 1
 	reloadMultiplier: 1
-	lifetime: 88
+	lifetime: 44
 	width: 10
 	height: 12
         backColor: d6cf9f
@@ -34,8 +34,8 @@ ammoTypes: {
 	trailLength: 3
         hitEffect: flakExplosion
         shootEffect: shootBigSmoke
-          fragBullets: 8
-          fragRandomSpread: 50
+          fragBullets: 18
+          fragRandomSpread: 55
           fragBullet: {
                type: ArtilleryBulletType
                sprite: mine-bullet
@@ -57,7 +57,7 @@ ammoTypes: {
 	speed: 2
 	ammoMultiplier: 1.5
 	reloadMultiplier: 0.75
-	lifetime: 88
+	lifetime: 44
 	width: 11
 	height: 13
         backColor: 6596a3
@@ -66,8 +66,8 @@ ammoTypes: {
 	trailLength: 3
         hitEffect: flakExplosion
         shootEffect: shootBigSmoke
-          fragBullets: 30
-          fragRandomSpread: 70
+          fragBullets: 50
+          fragRandomSpread: 75
           fragBullet: {
                type: BasicBulletType
                sprite: mine-bullet
@@ -89,7 +89,7 @@ ammoTypes: {
 	speed: 2
 	ammoMultiplier: 4
 	reloadMultiplier: 0.80
-	lifetime: 78
+	lifetime: 44
 	width: 12
 	height: 14
         backColor: ce36d9
@@ -98,8 +98,8 @@ ammoTypes: {
 	trailLength: 3
         hitEffect: flakExplosion
         shootEffect: shootBigSmoke
-          fragBullets: 4
-          fragRandomSpread: 65
+          fragBullets: 8
+          fragRandomSpread: 68
           fragBullet: {
                type: BasicBulletType
                sprite: mine-bullet
