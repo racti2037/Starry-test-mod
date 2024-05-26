@@ -9,7 +9,7 @@ requirements: [
 		iridium/120
 		silicon/90
 ]
-range: 230
+range: 200
 reload: 12
 targetAir: true
 targetGround: false
@@ -39,7 +39,7 @@ ammoTypes: {
           fragBullet: {
                type: BasicBulletType
                sprite: mine-bullet
-               speed: 0.0009
+               speed: 0.1
                damage: 30
                pierce: false
                splashDamage: 25
@@ -71,7 +71,7 @@ ammoTypes: {
           fragBullet: {
                type: BasicBulletType
                sprite: mine-bullet
-               speed: 0.0009
+               speed: 0.15
                damage: 30
                pierce: false
                splashDamage: 14
