@@ -24,7 +24,7 @@ ammoTypes: {
         damage: 17
 	speed: 3
 	ammoMultiplier: 3.5
-	reloadMultiplier: 0.2
+	reloadMultiplier: 0.8
 	lifetime: 46
 	width: 8
 	height: 10
@@ -39,7 +39,7 @@ ammoTypes: {
           fragBullet: {
                type: BasicBulletType
                sprite: mine-bullet
-               speed: 0.1
+               speed: 0.001
                damage: 30
                pierce: false
                splashDamage: 25
@@ -56,7 +56,7 @@ ammoTypes: {
         damage: 17
 	speed: 3
 	ammoMultiplier: 4
-	reloadMultiplier: 0.30
+	reloadMultiplier: 1.4
 	lifetime: 46
 	width: 8
 	height: 10
@@ -71,8 +71,8 @@ ammoTypes: {
           fragBullet: {
                type: BasicBulletType
                sprite: mine-bullet
-               speed: 0.15
-               damage: 30
+               speed: 0.0015
+               damage: 19
                pierce: false
                splashDamage: 14
                splashDamageRadius: 20
