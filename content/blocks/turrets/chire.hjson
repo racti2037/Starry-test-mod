@@ -19,8 +19,9 @@ alternate: true
 shootShake: 0.1
 shoot: {
         type: ShootAlternate
-        spread: 8
-        shoots: 2
+        spread: 6
+        shots: 2
+        shotDelay: 0.1
       }
 shootEffect: shootSmall
 inaccuracy: 1
