@@ -1,0 +1,75 @@
+type: ItemTurret
+name: Trisput
+size: 3
+health: 1360
+outlineColor: 2d2f39 
+rotateSpeed: 5
+requirements: [
+		cobalt/180
+		lead/230
+		silicon/190
+]
+targetAir: true
+targetGround: true
+range: 200
+reload: 40
+shootCone: 3
+shootSound: bolt
+rotateSpeed: 8
+inaccuracy: 3.5
+ammoTypes: {
+ iridium: {
+        type: FLakBulletType
+        hitSize: 4
+        damage: 300
+	speed: 6
+	ammoMultiplier: 2
+	reloadMultiplier: 1
+	lifetime: 40
+	width: 7
+	height: 8
+	trailColor: ff4dd2
+	trailWidth: 1
+	trailLength: 3
+        hitEffect: flakExplosion
+        shootEffect: shootBigSmoke
+          fragBullets: 16
+          fragRandomSpread: 270
+          fragBullet: {
+               type: MissileBulletType
+               sprite: mine-bullet
+               speed: 2
+               damage: 57
+               pierce: false
+               splashDamage: 8
+               splashDamageRadius: 5
+               lifeTime: 8
+               trailColor: ff4dd2
+               knockback: -0.2
+                     }
+        }
+      }
+drawer: {
+type: DrawTurret
+parts: [
+	 {
+	   type: RegionPart
+	   suffix: -side
+	   mirror: true
+	   progress: warmup
+	   moveX: 3
+           moveY: -0.7
+           under: true
+           moves: [
+		    {
+		 type: PartMove
+		 progress: warmup
+		 moveX: 3
+		 moveY: 0.7
+	            }       
+	         ]
+         }
+       ]
+     }
+category: turret
+research: chire
