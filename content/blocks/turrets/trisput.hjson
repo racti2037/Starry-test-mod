@@ -63,9 +63,9 @@ parts: [
            moves: [
 		    {
 		 type: PartMove
-		 progress: reload
-		 moveX: 1
-		 moveY: 0
+		 progress: warmup
+		 moveX: -0.2
+		 moveY: 0.1
 	            }       
 	         ]
          }
