@@ -56,7 +56,7 @@ parts: [
 	   type: RegionPart
 	   suffix: -side
 	   mirror: true
-	   progress: warm up
+	   progress: warmup
 	   moveX: -0.2
            moveY: 0.1
            under: false
