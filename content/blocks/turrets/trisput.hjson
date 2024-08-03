@@ -58,14 +58,14 @@ parts: [
 	   mirror: true
 	   progress: warmup
 	   moveX: 3
-           moveY: -0.7
-           under: true
+           moveY: 0
+           under: false
            moves: [
 		    {
 		 type: PartMove
-		 progress: warmup
+		 progress: reload
 		 moveX: 3
-		 moveY: 0.7
+		 moveY: 0
 	            }       
 	         ]
          }
