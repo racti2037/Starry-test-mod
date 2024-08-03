@@ -56,15 +56,15 @@ parts: [
 	   type: RegionPart
 	   suffix: -side
 	   mirror: true
-	   progress: warmup
-	   moveX: 3
+	   progress: reload
+	   moveX: 3.1
            moveY: 0
            under: false
            moves: [
 		    {
 		 type: PartMove
 		 progress: reload
-		 moveX: 3
+		 moveX: 1
 		 moveY: 0
 	            }       
 	         ]
