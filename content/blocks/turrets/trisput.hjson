@@ -53,10 +53,14 @@ ammoTypes: {
         intervalSpread: 150
         intervalBullet: {
         speed: 2
-        lifetime: 45
-        damage: 2
-        splashDamage: 25
+        lifetime: 20
+        damage: 3
+        splashDamage: 30
         splashDamageRadius: 24
+        hitEffect: flakExplosion
+        trailColor: ff4dd2
+	trailWidth: 1
+	trailLength: 1.5
           }
         }
       }
@@ -67,6 +71,7 @@ parts: [
 	   type: RegionPart
 	   suffix: -side
 	   mirror: true
+           progress: recoil
 	   x: 0.2
            y: 0
            under: false
