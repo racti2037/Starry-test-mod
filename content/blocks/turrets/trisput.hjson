@@ -33,9 +33,9 @@ ammoTypes: {
 	trailLength: 3
         hitEffect: flakExplosion
         shootEffect: shootBigSmoke
-          fragBullets: 16
-          fragRandomSpread: 270
-          fragBullet: {
+        fragBullets: 16
+        fragRandomSpread: 270
+        fragBullet: {
                type: MissileBulletType
                sprite: mine-bullet
                speed: 2
@@ -47,6 +47,17 @@ ammoTypes: {
                trailColor: ff4dd2
                knockback: -0.2
                      }
+        bulletInterval: 5
+        intervalBullets: 2
+        intervalRandomSpread: 0
+        intervalSpread: 150
+        intervalBullet: {
+        speed: 2
+        lifetime: 45
+        damage: 2
+        splashDamage: 25
+        splashDamageRadius: 24
+          }
         }
       }
 drawer: {
@@ -56,15 +67,14 @@ parts: [
 	   type: RegionPart
 	   suffix: -side
 	   mirror: true
-	   progress: warmup
-	   moveX: -0.2
-           moveY: 0.1
+	   x: 0.2
+           y: 0
            under: false
            moves: [
 		    {
 		 type: PartMove
-		 progress: warmup
-		 moveX: -0.2
+		 progress: recoil
+		 moveX: 0.5
 		 moveY: 0.1
 	            }       
 	         ]
