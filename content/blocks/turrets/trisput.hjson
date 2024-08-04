@@ -70,16 +70,18 @@ ammoTypes: {
 drawer: {
 type: DrawTurret
 parts: [
-	{
-           type: RegionPart
-           suffix: -glow
-           mirror: false
-           progress: warmup 
-           heatProgres: warmup
-           heatColor: ff6214
-        }
-           
-{
+        {
+          type: RegionPart
+          suffix: -glow
+          layer: -1
+          mirror: true
+          blending: additive
+          color: ff2302
+          colorTo: ff2302
+          outline: false
+          progress: warmup
+        }  
+        {
 	   type: RegionPart
 	   suffix: -side
 	   mirror: true
