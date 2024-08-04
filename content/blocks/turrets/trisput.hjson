@@ -78,7 +78,9 @@ parts: [
           color: ff2302
           colorTo: ff2302
           outline: false
+          heatColor: ff6214
           progress: warmup
+          heatProgres: warmup
         }  
         {
 	   type: RegionPart
