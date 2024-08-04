@@ -70,7 +70,14 @@ ammoTypes: {
 drawer: {
 type: DrawTurret
 parts: [
-	 {
+	{
+           type: RegionPart
+           suffix: -glow
+           mirror: false
+           progress: warmup 
+           heatProgres: warmup
+           
+{
 	   type: RegionPart
 	   suffix: -side
 	   mirror: true
