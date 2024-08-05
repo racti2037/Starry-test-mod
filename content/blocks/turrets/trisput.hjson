@@ -22,15 +22,17 @@ ammoTypes: {
         type: BasicBulletType
         hitSize: 4
         damage: 300
+        pierce: true
 	speed: 6
 	ammoMultiplier: 2
 	reloadMultiplier: 1
+        frontColor: bb6d9a
 	lifetime: 38
 	width: 7
 	height: 17
 	trailColor: ff4dd2
-	trailWidth: 1
-	trailLength: 3
+	trailWidth: 2
+	trailLength: 4
         hitEffect: flakExplosion
         shootEffect: shootBigSmoke
         bulletInterval: 5
