@@ -16,7 +16,7 @@ reload: 40
 shootCone: 3
 shootSound: bolt
 rotateSpeed: 8
-inaccuracy: 3.5
+inaccuracy: 0
 ammoTypes: {
  iridium: {
         type: BasicBulletType
@@ -54,8 +54,8 @@ ammoTypes: {
         trailColor: ff4dd2
 	trailWidth: 1.5
 	trailLength: 4
-        weaveScale: 5
-        weaveMag: 2
+        weaveScale: 4
+        weaveMag: 3
           }
         }
       }
