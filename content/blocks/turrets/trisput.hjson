@@ -37,8 +37,7 @@ ammoTypes: {
         shootEffect: shootBigSmoke
         bulletInterval: 5
         intervalBullets: 4
-        intervalRandomSpread: 0
-        intervalSpread: 5
+        intervalSpread: 10
         intervalBullet: {
         speed: 2
         lifetime: 27
@@ -66,8 +65,8 @@ parts: [
           suffix: -glow
           mirror: false
           blending: additive
-          color: ff2302
-          colorTo: ff2302
+          colorFrom: ff2302
+          colorTo: ff6314
           outline: false
           heatColor: ff6214
           progress: warmup
