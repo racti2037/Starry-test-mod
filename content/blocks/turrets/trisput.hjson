@@ -27,7 +27,7 @@ ammoTypes: {
 	ammoMultiplier: 2
 	reloadMultiplier: 1
         frontColor: bb6d9a
-	lifetime: 38
+	lifetime: 30
 	width: 7
 	height: 17
 	trailColor: ff4dd2
@@ -53,7 +53,7 @@ ammoTypes: {
         trailColor: ff4dd2
 	trailWidth: 1.5
 	trailLength: 4
-        weaveScale: 2
+        weaveScale: 3
         weaveMag: 1
           }
         }
