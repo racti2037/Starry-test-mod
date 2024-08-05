@@ -47,7 +47,7 @@ ammoTypes: {
         homingRadius: 35
         homingDelay: 3
         hitEffect: flakExplosion
-        color: ffc3e4
+        backColor: ffc3e4
         trailColor: ff4dd2
 	trailWidth: 1
 	trailLength: 4
