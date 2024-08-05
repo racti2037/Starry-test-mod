@@ -50,11 +50,12 @@ ammoTypes: {
         homingDelay: 10
         hitEffect: flakExplosion
         backColor: ffc3e4
+        frontColor: bb6d9a
         trailColor: ff4dd2
 	trailWidth: 1.5
 	trailLength: 4
-        weaveScale: 3
-        weaveMag: 1
+        weaveScale: 2
+        weaveMag: 3
           }
         }
       }
@@ -70,7 +71,7 @@ parts: [
           colorTo: ff6314
           outline: false
           heatColor: ff6214
-          progress: warmup
+          progres: recoil
           heatProgres: warmup
         }  
         {
