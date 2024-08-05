@@ -38,7 +38,7 @@ ammoTypes: {
         bulletInterval: 5
         intervalBullets: 4
         intervalRandomSpread: 0
-        intervalSpread: 4
+        intervalSpread: 5
         intervalBullet: {
         speed: 2
         lifetime: 27
@@ -47,14 +47,14 @@ ammoTypes: {
         splashDamageRadius: 24
         homingPower: 0.7
         homingRadius: 35
-        homingDelay: 3
+        homingDelay: 10
         hitEffect: flakExplosion
         backColor: ffc3e4
         trailColor: ff4dd2
-	trailWidth: 1
+	trailWidth: 1.5
 	trailLength: 4
-        weaveScale: 1
-        weaveMag: 7
+        weaveScale: 2
+        weaveMag: 5
           }
         }
       }
