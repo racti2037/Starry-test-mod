@@ -36,8 +36,9 @@ ammoTypes: {
         hitEffect: flakExplosion
         shootEffect: shootBigSmoke
         bulletInterval: 5
-        intervalBullets: 4
+        intervalBullets: 2
         intervalSpread: 10
+        intervalRandomSpread:0
         intervalBullet: {
         speed: 2
         lifetime: 27
@@ -53,7 +54,7 @@ ammoTypes: {
 	trailWidth: 1.5
 	trailLength: 4
         weaveScale: 2
-        weaveMag: 5
+        weaveMag: 1
           }
         }
       }
