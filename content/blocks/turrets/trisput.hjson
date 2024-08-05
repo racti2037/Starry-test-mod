@@ -53,7 +53,7 @@ ammoTypes: {
         trailColor: ff4dd2
 	trailWidth: 1
 	trailLength: 4
-        weaveScale: 6
+        weaveScale: 1
         weaveMag: 7
           }
         }
