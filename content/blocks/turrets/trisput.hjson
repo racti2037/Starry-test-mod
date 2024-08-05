@@ -19,7 +19,7 @@ rotateSpeed: 8
 inaccuracy: 3.5
 ammoTypes: {
  iridium: {
-        type: FLakBulletType
+        type: BasicBulletType
         hitSize: 4
         damage: 300
 	speed: 6
@@ -27,43 +27,32 @@ ammoTypes: {
 	reloadMultiplier: 1
 	lifetime: 38
 	width: 7
-	height: 8
+	height: 17
 	trailColor: ff4dd2
 	trailWidth: 1
 	trailLength: 3
         hitEffect: flakExplosion
         shootEffect: shootBigSmoke
-        fragBullets: 16
-        fragRandomSpread: 270
-        fragBullet: {
-               type: MissileBulletType
-               sprite: mine-bullet
-               speed: 2
-               damage: 57
-               pierce: false
-               splashDamage: 8
-               splashDamageRadius: 5
-               lifeTime: 8
-               trailColor: ff4dd2
-               knockback: 0.2
-                     }
         bulletInterval: 5
         intervalBullets: 4
         intervalRandomSpread: 0
-        intervalSpread: 30
+        intervalSpread: 15
         intervalBullet: {
         speed: 2
-        lifetime: 30
-        damage: 3
+        lifetime: 27
+        damage: 9
         splashDamage: 30
         splashDamageRadius: 24
-        homingPower: 1.3
-        homingRadius: 50
+        homingPower: 0.7
+        homingRadius: 35
         homingDelay: 3
         hitEffect: flakExplosion
+        color: ffc3e4
         trailColor: ff4dd2
 	trailWidth: 1
 	trailLength: 4
+        weaveScale: 3
+        weaveMag: 2
           }
         }
       }
